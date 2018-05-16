@@ -1,4 +1,5 @@
 #1번
+
     a=str(input('문자열 : '))
     print('문자열 길이 :',len(a))
     print('첫 번째 문자 :',a[0])
@@ -6,6 +7,7 @@
     print('마지막 문자 :',a[-1])
 
 #2번
+
     a=str(input('문자열 : '))
     print('개별 문자 출력 :',end='')
     for i in range (len(a)):
@@ -16,6 +18,7 @@
         print(a[i],end='')
 
 #3번
+
     score=int(input('점수 : '))
     if score >= 0 and score <= 100:
         if score >= 90:
@@ -32,6 +35,7 @@
         print('입력가능한 점수 범위는 0~100입니다.')
 
 #4번
+
     deg = {10:'A',9:'A',8:'B',7:'C',6:'D',5:'F',4:'F',3:'F',2:'F',1:'F',0:'F'}
     score=int(input('점수 : '))
     score_d=score//10
@@ -41,6 +45,7 @@
         print('입력가능한 점수 범위는 0~100입니다.')
 
 #5번
+
     items = {'라면':650,'우유':1100,'콜라':1200,'캔커피':500,'과자':700}
     s=0
     while True:
@@ -56,6 +61,7 @@
             print(it,'는 미등록 제품입니다.')
 
 #6번
+
     engkor_dict = dict()
     while True:
         eng = input('영어 단어 : ')
@@ -67,6 +73,7 @@
             break
 
 #7번
+
     engkor_dict = dict()
     while True:
         eng = input('영어 단어 : ')
@@ -87,11 +94,13 @@
             break
 
 #8번
+
     import time
     for i in range(1,6):
         print(i,end=' ');time.sleep(1)
 
 #9번
+
     import math
     a = float(input('실수 : '))
     print(a,':',math.ceil(a))
